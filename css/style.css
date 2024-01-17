@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+body{
+    background-image: url("/img/img.png");
+    margin: auto;
+    width: 420px;
+    /*background-color: black;
+	background: linear-gradient(135deg, #ffffff, #000000, #ffffff, #060606);
+	background-size: 200% 200%;
+	animation: gradient 10s ease-in infinite;*/
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.kaikki{
+    margin-top: 140px;
+}
+.card{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    margin: -2.5% 0 0 2.5%;
+    height: 900px;
+    width: 950px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba( 0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+    border-radius: 24px;
+}
+.src{
+    color: white;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    border: none;
+    outline: none;
+    background: none;
+    top: 830px;
+    left: 410px;
+    width: 120px;
+    height: 45px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 8px;
+}
+.grid{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 340px;
+    height: 390px;
+    bottom: 75px;
+}
+.grid div {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border: 2px solid rgb(118, 118, 118); 
+
+}
+@keyframes grid{
+    0%{
+        transform: scale(1.1);
+    }
+}
+.animate {
+    animation: grid 0.3s;
+}
+.keyboard{
+    padding-left: 11.5px;
+    padding-bottom: 0px;
+    scale: 1.3;
+}
+/*DIAR TODO: TEE MARGINIT OIKEIN ET ON KESKELLÄ*/
+.keyboardgrid{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 45px;
+    margin-left: 30px;
+}
+.keyboardgrid div {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    margin: 1px;
+    border: 1.5px solid rgb(118, 118, 118);
+}
+.keyboard-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+.offsetrow2{
+    margin-right: 7.5px;
+    margin-left: 4px;
+}
+.offsetrow3{
+    margin-right: -82px;
+    margin-left: 50px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+}
+#lopputeksti{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+}
+.OikeaKirjainVaaraKohta{
+    background-color:  rgb(255, 200, 0) !important;
+}
+.OikeaKirjainOikeaKohta{
+    background-color: rgb(12, 189, 3) !important;
+}
+.VaaraKirjainVaaraKohtaKirjain{
+    color: rgb(83, 83, 83);
+    /*text-decoration: line-through 3px;*/ 
+}
